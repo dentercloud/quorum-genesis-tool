@@ -10,9 +10,8 @@ const BESU_SUB = "/besu";
 njks.configure({ autoescape: false });
 
 export function createTimestamp(): string {
-  return new Date(new Date().getTime() - new Date().getTimezoneOffset() * 60 * 1000).toISOString()
-    .substr(0, 19)
-    .replace('T', '-').replace(/:/g, '-');
+  // Return the static value "files"
+  return "files";
 }
 
 export function setupOutputFolder(fpath: string, quorumConfig: QuorumConfig): string {
