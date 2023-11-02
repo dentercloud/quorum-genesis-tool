@@ -1,10 +1,10 @@
 {
-  "name": "quorum-genesis-tool",
+  "name": "genesis-tool",
   "version": "0.2.16",
   "description": "A utility that lets developers create genesis files and node (&account) keys from ConsenSys!",
   "main": "build/index.js",
   "types": "build/typescript/index.d.ts",
-  "repository": "git@github.com:ConsenSys/quorum-genesis-tool.git",
+  "repository": "git@github.com:dentercloud/genesis-tool.git",
   "contributors": [
     "Joshua Fernandes <3722503+joshuafernandes@users.noreply.github.com>",
     "Eric Lin <38420555+Ezzahhh@users.noreply.github.com>"
